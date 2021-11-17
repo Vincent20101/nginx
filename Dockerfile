@@ -22,7 +22,7 @@ VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/certs", "/etc/nginx/conf.d", "/v
 # Define working directory.
 WORKDIR /etc/nginx
 
-# Define default command.
+# Define default command..
 CMD ["nginx"]
 
 # Expose ports.
